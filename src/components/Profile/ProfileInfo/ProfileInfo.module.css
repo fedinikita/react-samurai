@@ -1,0 +1,29 @@
+.main {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.mainBack {
+    width: 100%;
+    height: 220px;
+}
+
+.about {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 9fr;
+}
+
+.personalInfo {
+    padding: 10px;
+}
+
+.personalItem {
+    margin-bottom: 5px;
+    font-family: Arial, serif;
+}
+
+.personalName {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
