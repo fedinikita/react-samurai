@@ -1,3 +1,23 @@
 .userItem {
+    margin-top: 30px;
     display: grid;
+    grid-template-columns:  60px 800px 200px;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.selectedPage {
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.pages span {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.pages span:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
